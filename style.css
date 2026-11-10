@@ -21,3 +21,7 @@ main{padding-bottom:28px}
 
 /* Sales analysis */
 .analysis-periods{display:flex;gap:8px;flex-wrap:wrap}.analysis-selected{background:#356b56;color:#fff}.analysis-dates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.analysis-dates label{margin-top:12px}.analysis-dates input{margin-top:5px}.analysis-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;text-align:center}.analysis-kpis .big{font-size:24px}@media(max-width:370px){.analysis-dates{grid-template-columns:1fr}}
+
+/* 認証画面 */
+.auth .auth-switch{display:block;margin:18px auto 0;font-size:14px;padding:7px;}
+.auth .brand{color:#008f80;}

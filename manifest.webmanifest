@@ -1,11 +1,25 @@
 {
-  "name": "BRANCH FLOWER 納品・在庫管理",
-  "short_name": "BRANCH FLOWER",
+  "name": "ブランチ花管理",
+  "short_name": "花管理",
   "description": "生協向けの花の納品・在庫・鮮度・推定販売管理",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f7f3",
-  "theme_color": "#356b56",
-  "lang": "ja"
+  "background_color": "#ffffff",
+  "theme_color": "#008f80",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
